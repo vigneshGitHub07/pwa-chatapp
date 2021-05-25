@@ -1,7 +1,67 @@
-.App {
-  text-align: center;
+.chat h1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #fff;
 }
+.chat{
+  background-color:rgb(240, 240, 240) ;
+  width: 100%;
+  overflow-x: hidden;
+  margin-left: 0px !important;
+}
+.chats{
+  background-color: rgb(117, 117, 246);
 
+}
+.usericonns{
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 40px;
+}
+.useroptions{
+  padding-left: 18px;
+  padding-right: 8px;
+  font-size: 20px;
+  font-family: Didot, serif;
+  color: rgb(206, 203, 203);
+}
+.useroptions:hover{
+  color:rgb(77, 77, 246) ;
+}
+.userDetails{
+  background-color: #fff;
+border-top-left-radius: 32px;
+border-top-right-radius: 32px;
+text-align: center;
+}
+.userfirsticonns{
+  font-size: 50px;
+}
+.userfirstname{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Didot, serif;
+  text-align: left;
+}
+.usersecname{
+  font-size: 18px;
+  font-weight: 200;
+  font-family: Didot, serif;
+  text-align: left;
+
+}
+.userinfo{
+  background-color: rgb(240, 240, 240) !important;
+  text-align: center;
+  justify-content: center;
+}
+#image{
+  height: 40px;
+  width: 40px;
+  border-radius: 80px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
